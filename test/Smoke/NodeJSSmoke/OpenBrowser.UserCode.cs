@@ -14,6 +14,8 @@ using System.Text.RegularExpressions;
 using System.Drawing;
 using System.Threading;
 using WinForms = System.Windows.Forms;
+using System.Diagnostics;
+using System.IO;
 
 using Ranorex;
 using Ranorex.Core;
@@ -31,6 +33,20 @@ namespace NodeJSSmoke
         private void Init()
         {
             // Your recording specific initialization code goes here.
+        }
+
+        public void HosttheBuild()
+        {
+        		 string path = Directory.GetParent(Ranorex.Core.Testing.TestSuite.WorkingDirectory).ToString();
+				 path= Path.GetFullPath(path + "../../../../../");
+             	 Process process = new Process();
+			     ProcessStartInfo start = new ProcessStartInfo("cmd", "/c npm run start:dev");
+			     start.WorkingDirectory= path;
+			     process.StartInfo = start;		    
+			     process.Start();
+			     Thread.Sleep(5000);
+				
+			    
         }
 
     }

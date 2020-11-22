@@ -85,6 +85,9 @@ namespace NodeJSSmoke
             
             Report.Screenshot(ReportLevel.Success, "User", "Application Closed", null, false, new RecordItemIndex(1));
             
+            CloseProcess();
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

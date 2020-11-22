@@ -14,6 +14,7 @@ using System.Text.RegularExpressions;
 using System.Drawing;
 using System.Threading;
 using WinForms = System.Windows.Forms;
+using System.Diagnostics;
 
 using Ranorex;
 using Ranorex.Core;
@@ -31,6 +32,14 @@ namespace NodeJSSmoke
         private void Init()
         {
             // Your recording specific initialization code goes here.
+        }
+
+        public void CloseProcess()
+        {
+            Process[] processes = Process.GetProcessesByName("node");
+			if (processes.Length > 0)
+			{processes[0].Kill();Thread.Sleep(3000);}
+			
         }
 
     }

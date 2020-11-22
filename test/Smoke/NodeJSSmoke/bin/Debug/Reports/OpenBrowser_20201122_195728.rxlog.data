@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="5.64s"
+		durationms="5637"
+		type="root"
+		rid="113a8473b7f5ed0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="User"
+		rxversion="9.3.1.0"
+		host="DESKTOP-U0EJHEB"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1200"
+		timestamp="11/22/2020 7:57:31 PM"
+		timestampiso="2020-11-22T18:57:31"
+		endtime="11/22/2020 7:57:36 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="OpenBrowser">
+		<detail>
+			OpenBrowser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.624"
+			timeRelativeToTestModuleStartTime="00:05.624"
+			timeWallClock="19:57:36"
+			time="00:05.624"
+			level="Info"
+			category="User">
+			<message>
+				Path:=C:\Users\User\Documents\Ranorex\TestSuites
+			</message>
+			<metainfo
+				codefile="D:\Smoke\NodeJSSmoke\OpenBrowser.UserCode.cs"
+				codeline="48"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

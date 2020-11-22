@@ -53,11 +53,6 @@ mode="Desktop">
 				valid="False"
 				visible="False">
 					<attribute
-					name="browser"
-					type="Ranorex.Form, Ranorex.Core, Culture=neutral">
-						{Form:Home — The Example App - Google Chrome}
-					</attribute>
-					<attribute
 					name="browsername"
 					type="System.String">
 						Chrome
@@ -95,6 +90,21 @@ mode="Desktop">
 			<bindings>
 			</bindings>
 		</loggingrecorditem>
+		<userrecorditem
+		classname="CloseBrowser"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="CloseProcess"
+		namespace="NodeJSSmoke"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="b484f539-4908-49aa-a66f-080b4daefd28">
+			</arguments>
+		</userrecorditem>
 	</recorditems>
 	<repository
 	id="1041e23e-4a05-4d4b-b7b9-632daa631756"

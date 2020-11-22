@@ -25,6 +25,21 @@ mode="Desktop">
 	<variables>
 	</variables>
 	<recorditems>
+		<userrecorditem
+		classname="OpenBrowser"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="HosttheBuild"
+		namespace="NodeJSSmoke"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="d5799d6e-57e8-4a0a-be23-fdce0b61644e">
+			</arguments>
+		</userrecorditem>
 		<openwebsiterecorditem
 		args=""
 		browser="chrome"

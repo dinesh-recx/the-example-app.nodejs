@@ -79,11 +79,14 @@ namespace NodeJSSmoke
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Website", "Opening web site 'http://localhost:3000/' with browser 'chrome' in normal mode.", new RecordItemIndex(0));
+            HosttheBuild();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'http://localhost:3000/' with browser 'chrome' in normal mode.", new RecordItemIndex(1));
             Host.Current.OpenBrowser("http://localhost:3000/", "chrome", "", false, false, false, false, false, true);
             Delay.Milliseconds(0);
             
-            Report.Screenshot(ReportLevel.Success, "User", "Browser Launch Successfull", null, false, new RecordItemIndex(1));
+            Report.Screenshot(ReportLevel.Success, "User", "Browser Launch Successfull", null, false, new RecordItemIndex(2));
             
         }
 

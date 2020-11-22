@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="5.43s"
+		durationms="5428"
+		type="root"
+		rid="890d719ca4bbc34"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="User"
+		rxversion="9.3.1.0"
+		host="DESKTOP-U0EJHEB"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1200"
+		timestamp="11/22/2020 8:01:19 PM"
+		timestampiso="2020-11-22T19:01:19"
+		endtime="11/22/2020 8:01:24 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="OpenBrowser">
+		<detail>
+			OpenBrowser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.415"
+			timeRelativeToTestModuleStartTime="00:05.415"
+			timeWallClock="20:01:24"
+			time="00:05.415"
+			level="Info"
+			category="User">
+			<message>
+				Path:=
+			</message>
+			<metainfo
+				codefile="D:\Smoke\NodeJSSmoke\OpenBrowser.UserCode.cs"
+				codeline="48"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

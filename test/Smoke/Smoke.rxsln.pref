@@ -11,6 +11,6 @@
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution Smoke[]]&#xD;&#xA;Solution Smoke\Smoke&#xD;&#xA;Solution Smoke" />
+  <ProjectBrowserState value="[Solution Smoke[Smoke[]]]&#xD;&#xA;Solution Smoke\Smoke\Reports&#xD;&#xA;Solution Smoke" />
   <StartupProject value="{5A3A5B7C-601F-48E6-B554-3A01CF674F18}" />
 </Properties>
