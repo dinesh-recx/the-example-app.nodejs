@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7ab63de3-d510-4ca0-b543-d19567c01285"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="NodeJSSmoke">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				http://localhost:3000/
+			</url>
+		</openwebsiterecorditem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message="Browser Launch Successfull"
+		optional="False"
+		reportlevel="Success;110"
+		searchpropertyid="61b59428-5a1c-453c-99b5-8ac2d6dfd4ca">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="1041e23e-4a05-4d4b-b7b9-632daa631756"
+	name="NodeJSSmokeRepository"
+	relativepath="NodeJSSmokeRepository.rxrep">
+		<codegen
+		classname="NodeJSSmokeRepository"
+		namespace="NodeJSSmoke">
+		</codegen>
+		<rootfolder
+		id="0f1c0457-6f56-4ea7-88c1-02a0bd8bfb2e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

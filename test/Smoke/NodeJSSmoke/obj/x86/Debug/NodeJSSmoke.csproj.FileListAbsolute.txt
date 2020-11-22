@@ -1,0 +1,12 @@
+D:\NodeJSSmoke\NodeJSSmoke\bin\Debug\NodeJSSmoke.rxtmg
+D:\NodeJSSmoke\NodeJSSmoke\bin\Debug\NodeJSSmoke.rxtst
+D:\NodeJSSmoke\NodeJSSmoke\bin\Debug\NodeJSSmoke.exe.config
+D:\NodeJSSmoke\NodeJSSmoke\bin\Debug\NodeJSSmoke.xml
+D:\NodeJSSmoke\NodeJSSmoke\bin\Debug\NodeJSSmoke.exe
+D:\NodeJSSmoke\NodeJSSmoke\bin\Debug\NodeJSSmoke.pdb
+D:\NodeJSSmoke\NodeJSSmoke\bin\Debug\Ranorex.Core.Resolver.dll
+D:\NodeJSSmoke\NodeJSSmoke\obj\x86\Debug\NodeJSSmoke.csprojAssemblyReference.cache
+D:\NodeJSSmoke\NodeJSSmoke\obj\x86\Debug\NodeJSSmoke.csproj.CoreCompileInputs.cache
+D:\NodeJSSmoke\NodeJSSmoke\obj\x86\Debug\NodeJSSmoke.csproj.CopyComplete
+D:\NodeJSSmoke\NodeJSSmoke\obj\x86\Debug\NodeJSSmoke.exe
+D:\NodeJSSmoke\NodeJSSmoke\obj\x86\Debug\NodeJSSmoke.pdb
