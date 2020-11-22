@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="NodeJSSmoke"
+      id="6ae37be0-9aef-4cad-99d7-8e147f27dc46"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="NodeJSSmoke"
+      id="6ae37be0-9aef-4cad-99d7-8e147f27dc46"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

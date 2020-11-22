@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NodeJSSmoke</name>
+    </assembly>
+    <members>
+        <member name="T:NodeJSSmoke.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:NodeJSSmoke.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the NodeJSSmokeRepository repository.
+            </summary>
+        </member>
+        <member name="M:NodeJSSmoke.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:NodeJSSmoke.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:NodeJSSmoke.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:NodeJSSmoke.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:NodeJSSmoke.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:NodeJSSmoke.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:NodeJSSmoke.NodeJSSmokeRepository">
+            <summary>
+            The class representing the NodeJSSmokeRepository element repository.
+            </summary>
+        </member>
+        <member name="P:NodeJSSmoke.NodeJSSmokeRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the NodeJSSmokeRepository element repository.
+            </summary>
+        </member>
+        <member name="M:NodeJSSmoke.NodeJSSmokeRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:NodeJSSmoke.NodeJSSmokeRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:NodeJSSmoke.NodeJSSmokeRepository.HomeTheExampleApp">
+            <summary>
+            The HomeTheExampleApp folder.
+            </summary>
+        </member>
+        <member name="T:NodeJSSmoke.NodeJSSmokeRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:NodeJSSmoke.NodeJSSmokeRepositoryFolders.HomeTheExampleAppAppFolder">
+            <summary>
+            The HomeTheExampleAppAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:NodeJSSmoke.NodeJSSmokeRepositoryFolders.HomeTheExampleAppAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HomeTheExampleApp  folder.
+            </summary>
+        </member>
+        <member name="P:NodeJSSmoke.NodeJSSmokeRepositoryFolders.HomeTheExampleAppAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:NodeJSSmoke.NodeJSSmokeRepositoryFolders.HomeTheExampleAppAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:NodeJSSmoke.NodeJSSmokeRepositoryFolders.HomeTheExampleAppAppFolder.Home">
+            <summary>
+            The Home item.
+            </summary>
+        </member>
+        <member name="P:NodeJSSmoke.NodeJSSmokeRepositoryFolders.HomeTheExampleAppAppFolder.HomeInfo">
+            <summary>
+            The Home item info.
+            </summary>
+        </member>
+        <member name="P:NodeJSSmoke.NodeJSSmokeRepositoryFolders.HomeTheExampleAppAppFolder.ViewCourse">
+            <summary>
+            The ViewCourse item.
+            </summary>
+        </member>
+        <member name="P:NodeJSSmoke.NodeJSSmokeRepositoryFolders.HomeTheExampleAppAppFolder.ViewCourseInfo">
+            <summary>
+            The ViewCourse item info.
+            </summary>
+        </member>
+        <member name="P:NodeJSSmoke.NodeJSSmokeRepositoryFolders.HomeTheExampleAppAppFolder.LearnHowToBuildYourOwnApplications">
+            <summary>
+            The LearnHowToBuildYourOwnApplications item.
+            </summary>
+        </member>
+        <member name="P:NodeJSSmoke.NodeJSSmokeRepositoryFolders.HomeTheExampleAppAppFolder.LearnHowToBuildYourOwnApplicationsInfo">
+            <summary>
+            The LearnHowToBuildYourOwnApplications item info.
+            </summary>
+        </member>
+        <member name="T:NodeJSSmoke.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:NodeJSSmoke.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the NodeJSSmokeRepository repository.
+            </summary>
+        </member>
+        <member name="M:NodeJSSmoke.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:NodeJSSmoke.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:NodeJSSmoke.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:NodeJSSmoke.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:NodeJSSmoke.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:NodeJSSmoke.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:NodeJSSmoke.TestBrowser">
+             <summary>
+            The TestBrowser recording.
+             </summary>
+        </member>
+        <member name="F:NodeJSSmoke.TestBrowser.repo">
+            <summary>
+            Holds an instance of the NodeJSSmokeRepository repository.
+            </summary>
+        </member>
+        <member name="M:NodeJSSmoke.TestBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:NodeJSSmoke.TestBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:NodeJSSmoke.TestBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:NodeJSSmoke.TestBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:NodeJSSmoke.TestBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:NodeJSSmoke.TestBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

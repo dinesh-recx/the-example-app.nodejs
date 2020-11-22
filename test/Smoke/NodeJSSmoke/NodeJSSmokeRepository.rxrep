@@ -1,0 +1,78 @@
+﻿<repository
+id="1041e23e-4a05-4d4b-b7b9-632daa631756"
+name="NodeJSSmokeRepository">
+	<codegen
+	classname="NodeJSSmokeRepository"
+	namespace="NodeJSSmoke">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="0f1c0457-6f56-4ea7-88c1-02a0bd8bfb2e"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="03e225d9-e624-40de-8dd4-f6d4d76f85c7"
+		isrooted="True"
+		name="HomeTheExampleApp"
+		refpath="/dom[@domain='localhost:3000']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="284873df-22f3-4138-bd99-7709dc1c859b"
+			name="Home"
+			refimgid="94cee622-1dee-47fc-bc72-527f2fac6d69"
+			refpath="/dom[@domain='localhost:3000']/body/main/div[1]/header/div[2]/div/nav/ul/li[1]/a[@innertext='Home']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:3000']/?/?/main/div[1]//nav/ul/?/?/a[@innertext='Home']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="f2aaeb35-30df-4706-830a-986652c8c70e"
+			name="ViewCourse"
+			refimgid="cce65b70-d772-466a-811d-04b054441fd7"
+			refpath="/dom[@domain='localhost:3000']/body/main/div[2]/div[2]/div/div/div[2]/div[3]/a[@innertext='view course']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:3000']/body/main/div[2]/div[2]/div/div/div[2]/div[3]/a[@innertext='view course']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="74ec0a0b-cfa9-48fa-ac64-b96973d8ce9b"
+			name="LearnHowToBuildYourOwnApplications"
+			refimgid="dfca317c-1b7b-4b77-96a2-5247454f2781"
+			refpath="/dom[@domain='localhost:3000']/body/main/div[2]/div[2]/div/div/div[2]/div[2]/p[@innertext>'Learn how to build your own']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:3000']/body/main/div[2]/div[2]/div/div/div[2]/div[2]/p[@innertext&gt;'Learn how to build your own']
+			</item>
+			<basepath>
+				/dom[@domain='localhost:3000']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
